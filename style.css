@@ -1,22 +1,67 @@
-body{
-    display:grid;
+body {
+    display: grid;
     place-items: center;
     background-color: oklch(37.2% 0.044 257.287);
-    margin-top: 175px;
-}
-h1{
+    margin-top: 100px;
+    font-family: sans-serif;
+  }
+  
+  h1 {
     color: oklch(97.7% 0.013 236.62);
-}
-.phone-frame{
+    margin-bottom: 20px;
+  }
+  
+  .phone-frame {
     height: 450px;
     width: 250px;
     background-color: black;
-    text-align: center;
-}
-.inside-frame{
-    height: 350px;
-    width: 175px;
-    background-color: azure;
+    border-radius: 30px;
     padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inside-frame {
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+    border-radius: 20px;
+    
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  input{
+    height: 50px;
+    width: 175px;
+    border-radius: 6px;
+    border: 1px solid black;
+  }
 
+#check-btn{
+    background-color: oklch(84.1% 0.238 128.85);
+    border: 0;
+    border-radius: 3px;
+    width: 80px;
+    height: 25px;
+    color: white;
 }
+#clear-btn{
+    background-color: oklch(57.7% 0.245 27.325);
+    border: 0;
+    border-radius: 3px;
+    width: 80px;
+    height: 25px;
+    color: white;
+}
+#check-btn, #clear-btn:hover{
+    cursor: pointer;
+}
+  

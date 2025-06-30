@@ -1,1 +1,1 @@
-# telephone-number-validator
+A telephone number validator to check if a U.S number is valid. A project from freeCodeCamp.
